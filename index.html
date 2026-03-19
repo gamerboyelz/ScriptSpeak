@@ -5,36 +5,36 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
+  <title>ScriptSpeak</title>
   <script defer src="speaking.js"></script>
 
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-
   <main>
-
-
-      <!-- Text to Speach -->
-
-      <div style="text-align: center; font-family: Verdana;">
-        <h1>Text To Speech</h1>
-        <div id="speakAnimation">
-          <img id="myImage" src="jake.jpg" width="500px" alt="">
+    <section class="app-shell">
+      <div class="app-card">
+        <div class="app-copy">
+          <p class="eyebrow">Browser Voice Demo</p>
+          <h1>Text To Speech</h1>
+          <p class="intro">
+            Type something in the box, then press play to hear it spoken aloud.
+          </p>
         </div>
-        <br>
-        <br>
-        <div>
-          <textarea name="" id="speachBox" cols="30" rows="10"></textarea>
-          <button id="play-btn">Play Me</button>
+
+        <div id="speakAnimation" class="character-frame">
+          <img id="myImage" src="Jake.JPG" alt="Animated character used for the speech demo">
+        </div>
+
+        <div class="controls">
+          <label class="sr-only" for="speachBox">Text to speak</label>
+          <textarea id="speachBox" placeholder="Write something for ScriptSpeak to say..."></textarea>
+          <button id="play-btn" type="button">Play Me</button>
         </div>
       </div>
-      <!-- Text to Speach -->
-
-    </main>
-
-
+    </section>
+  </main>
 </body>
 
 </html>

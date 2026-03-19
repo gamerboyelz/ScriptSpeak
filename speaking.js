@@ -68,15 +68,15 @@ function startAnimation() {
     let image = document.querySelector('#myImage')
  
     image.src = "Jake.gif"
-    image.style.width = '445px'
+    image.style.width = ''
 }
 
 //replace gif animation with picture
 function stopAnimation(){
     let image = document.querySelector('#myImage')
 
-    image.src= "Jake.jpg"
-    image.style.width = '500px'
+    image.src= "Jake.JPG"
+    image.style.width = ''
 }
 
 //text to speach
